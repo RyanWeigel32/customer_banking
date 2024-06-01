@@ -20,10 +20,6 @@ class Account:
     def set_months(self, months):
         self.months = months
 
-    def get_balance(self, balance):
-        self.balance = balance
-
-    def get_interest(self, interest):
-        self.interest = interest
+ 
     
    

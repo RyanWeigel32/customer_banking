@@ -17,13 +17,13 @@ def main():
     updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
-    print('Here are the details of the savings account.')
+    print('\nHere are the details of your savings account:')
     print(f"The interest earned is: ${interest_earned: .2f}")
-    print(f"The updated saving balance is: ${updated_savings_balance: ,.2f}")
+    print(f"The updated savings balance is: ${updated_savings_balance: ,.2f}")
      
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
-    cd_balance = float(input("What is your CD savings balance? "))
+    cd_balance = float(input("\nWhat is your CD savings balance? "))
     cd_interest = float(input("What is the CD interest rate? "))
     cd_maturity = int(input("How many months is this cd for? "))
 
@@ -31,7 +31,7 @@ def main():
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
-    print('Here are the details of the CD account.')
+    print('\nHere are the details of your CD account:')
     print(f"The CD interest earned is: ${interest_earned: ,.2f}")
     print(f"The updated CD account balance is: ${updated_cd_balance: ,.2f}")
    
